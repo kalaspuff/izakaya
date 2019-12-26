@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "izakaya"
-version = "0.5.2"
+version = "0.0.1"
 description = "Real time event sourcing and application state management in a distributed computing context"
 authors = ["Carl Oscar Aaro <hello@carloscar.com>"]
 homepage = "https://github.com/kalaspuff/izakaya"

@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "izakaya"
+version = "0.5.2"
+description = "Real time event sourcing and application state management in a distributed computing context"
+authors = ["Carl Oscar Aaro <hello@carloscar.com>"]
+homepage = "https://github.com/kalaspuff/izakaya"
+repository = "https://github.com/kalaspuff/izakaya"
+keywords = ["izakaya", "event sourcing", "cqrs", "events", "distributed data"]
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Framework :: AsyncIO",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Intended Audience :: Developers",
+    "Typing :: Typed",
+    "License :: OSI Approved :: MIT License"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6 || ^3.7 || ^3.8"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+flake8-black = "^0.1.1"
+pytest = "^5.3.0"
+pytest-cov = "^2.7"
+black = "=19.10b0"
+mypy = "^0.740.0"
+codecov = "^2.0.15"
+
+[tool.black]
+line-length = 120
+target_version = ["py37"]

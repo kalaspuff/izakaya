@@ -24,6 +24,9 @@ version:
 black:
 	poetry run black -l 120 izakaya/ tests/
 
+isort:
+	poetry run isort -rc izakaya/ tests/
+
 build:
 	rm -rf dist/
 	poetry build

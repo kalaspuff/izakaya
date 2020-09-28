@@ -22,10 +22,10 @@ version:
 	poetry version `python izakaya/__version__.py`
 
 black:
-	poetry run black -l 120 izakaya/ tests/
+	poetry run black izakaya/ tests/
 
 isort:
-	poetry run isort -rc izakaya/ tests/
+	poetry run isort izakaya/ tests/
 
 build:
 	rm -rf dist/
